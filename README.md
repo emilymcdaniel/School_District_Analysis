@@ -12,8 +12,9 @@ Here is the initial, unsorted data. Please review the results below against this
 
 ![District Overview](https://github.com/emilymcdaniel/School_District_Analysis/blob/main/Resources/District%20Summary.PNG?raw=true)
 
+
 ## Results
-Please review how the metrics impacted the school disctrict's outcomes.
+Please review how the metrics impact the school disctrict's outcomes.
 
 ### District vs Charter Schools
 There is strong evidence from the data showing Charter schools outperform District schools, with over *40% more students* achieving an overall passing score. Among District schools, the average math score is 77 (67% of students passing) whereas Charter schools have an average math score of 83.5 (with 90% of students passing). The comparison of the average score vs students passing indicates the range of scores is greater among District schools.
@@ -43,11 +44,11 @@ Reading scores and the percentage of students passing reading are fairly strong 
 
 Math scores, however, show great differences between top and bottom performers. For the top 5 schools, over 90% are passing math with average of ~83%. The bottom 5 schools show over 1/3rd of students failing, and the average math scores are in the mid to upper 70s.
 
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 - How does replacing the ninth-grade scores affect the following:
   - Scores by school spending
   - Scores by school size
   - Scores by school type
+
 
 ## An Exercise in Excluding Ninth Graders' Data
 In this exercise, we ran a comparison without 9th graders' scores from Thomas High School's data to investigate their impact on overall performance. The following shows significant changes in the school's profile and its student's success.
@@ -57,23 +58,27 @@ In this exercise, we ran a comparison without 9th graders' scores from Thomas Hi
 - The percentage of students who earned a passing score score of at least 70% in **MATH rose from 66.9% to 93.2%.**
 - The percentage of students who earned a passing score score of at least 70% in **READING rose from 69.6% to 97.0%.**
 - The percentage of students who earned an overall passing score (based upon Reading and math scores) jumped by 25%!
-- Thomas High School ranks 13th within the district; after 9th graders' scores were removed Thomas High School ranks 2nd. This aligns better with the conslusions drawn above, including the Charter shcools and medium sized school are high academic performers.
+- Thomas High School ranks 13th within the district; after 9th graders' scores were removed Thomas High School ranks 2nd. This aligns better with the conclusions drawn above, including that Charter schools and medium sized schools produce strong academic performers.
 
-Ultimately, excluding ninth graders' from analysis made an enormous impact on the school's performance record. It is advisable that additional analyses are performed to determine whether this is true only for Thomas High School. However, these snapshots show that across the district, it may not play as significant a role at other schools:
+Ultimately, excluding ninth graders' from analysis made an enormous impact on the school's performance record. It is advisable that additional analyses are performed to determine whether this phenomenon is applicable at other schools. However, these snapshots cast doubt that ninth graders at other schools significantly impact performance results:
 
 **Snapshot of Grade Level vs Math Scores**
+
 ![Grade Level vs Math Scores](https://github.com/emilymcdaniel/School_District_Analysis/blob/main/Resources/Grade%20level%20v%20Math%20Scores.PNG?raw=true)
 
 **Snapshot of Grade Level vs Reading Scores**
+
 ![Grade Level vs Reading Scores](https://github.com/emilymcdaniel/School_District_Analysis/blob/main/Resources/Grade%20level%20v%20Reading%20Scores.PNG?raw=true)
 
+
 ## Summary
-Factors that have probable correlation to the percentage of students who pass are:
-- Small and medium sized schools outperform schools over 2000 students.
+Conclusions that have can be drawn from this analysis are:
+- Small & medium sized schools outperform schools over 2000 students.
 - Charter schools outperform District schools.
-  - Of import, charter schools tend to have fewer students.
+  - Of import, Charter schools tend to have fewer students.
 - Math programs have lower scores than Reading programs at all schools. 
 - To markedly boost overall performance, funnel more attention toward the Math programs.
+- Modifying the budget is unlikely to improve the district's results.
 
 ---
 To review the complete dataset please follow this link: [School District Analysis](https://github.com/emilymcdaniel/School_District_Analysis/blob/main/PyCitySchools_Challenge.ipynb)
